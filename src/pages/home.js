@@ -22,7 +22,7 @@ const Home = () => {
     <div style={{ backgroundColor: '#1A1A1A',overflowX: 'hidden'}}>
       <div className="row" style={{paddingLeft:220,paddingRight:220}}>
         {data.map((each) => (
-          <div className="col-md-6 col-sm-12" key={each.show.id}>
+          <div className="col-lg-4 col-md-6 col-sm-14" key={each.show.id}>
             <Card id={each.show.id} title={each.show.name} lan={each.show.language} image={each.show.image.original} />
           </div>
         ))}
