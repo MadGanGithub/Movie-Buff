@@ -38,7 +38,7 @@ const Book = () => {
 
   return (
     <div style={{ backgroundColor: '#1A1A1A', paddingTop: 200, display: 'flex', justifyContent: 'center', minHeight: '100vh' }}>
-      <div class="card" style={{ backgroundColor: '#303030', width: 400, height: 240, padding: 10, display: 'flex', justifyContent: 'center' }}>
+      <div class="card" style={{ backgroundColor: '#303030', width: 400, height: 240, padding: 10 }}>
         <h5 class="card-title" style={{ color: '#F5E41E' }}>Ticket Booking</h5>
         <div class="card-body">
           <form onSubmit={handleClick}>
