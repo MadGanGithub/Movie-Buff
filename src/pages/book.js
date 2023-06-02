@@ -50,6 +50,7 @@ const Book = () => {
                 <div class="col">
                   <input type='text' value={each.name} disabled />
                 </div>
+                <br></br>
                 <div class="w-100"></div>
                 <div class="col">
                   <label style={{ color: 'white' }}>Name:</label>
@@ -57,6 +58,7 @@ const Book = () => {
                 <div class="col">
                   <input type='text' value={name} onChange={(e) => setName(e.target.value)} required />
                 </div>
+                <br></br>
                 <div class="w-100"></div>
                 <div class="col">
                   <label style={{ color: 'white' }}>No Of Tickets: </label>
